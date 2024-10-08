@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+    --white: #fbfaf9;
+    --light-gray: #e5e2dc;
+    --light-gray-2: #e5e2dc80;
+    --dark-gray: #343027;
+    --black: #171511;
+    --black-75: #51514c;
+    --orange: #d75732;
+    --orange-2: #d8937e;
+    --green: #cbd732;
+    --green-2: #d9dda8;
+    --blue: #32acd7;
+    --blue-2: #9fc7d6;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Source Sans 3", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 100%;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 110%;
+}
+
+.router-link,
+a {
+    all: unset;
+}
+
+.router-link-active {
+    text-decoration: underline;
+}
+
+.monochromatic {
+    filter: grayscale(100%) brightness(5%);
+}

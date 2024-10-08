@@ -1,5 +1,5 @@
 {
-    "name": "nuxt-app",
+    "name": "lampa",
     "private": true,
     "type": "module",
     "scripts": {
@@ -13,7 +13,10 @@
     "dependencies": {
         "nuxt": "^3.13.0",
         "vue": "latest",
-        "vue-router": "latest"
+        "vue-router": "latest",
+        "@pinia/nuxt": "^0.5.4",
+        "openmeteo": "^1.1.4",
+        "pinia": "^2.2.2"
     },
     "devDependencies": {
         "push-dir": "^0.4.1"
