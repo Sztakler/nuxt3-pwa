@@ -9,9 +9,9 @@
 
 <script setup>
 definePageMeta({
-    head: {
-        link: [{ rel: "manifest", href: "/Lampa/manifest.webmanifest" }],
-    },
+    // head: {
+    //     link: [{ rel: "manifest", href: "/Lampa/manifest.webmanifest" }],
+    // },
 });
 </script>
 

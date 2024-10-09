@@ -1,7 +1,7 @@
 import { fetchWeatherApi } from "openmeteo";
 import { defineStore } from "pinia";
 
-const baseURL = "/Lampa";
+const baseURL = "/nuxt3-pwa";
 
 const params = {
     latitude: null,
