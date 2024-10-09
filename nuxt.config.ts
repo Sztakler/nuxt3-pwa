@@ -5,11 +5,11 @@ export default defineNuxtConfig({
     css: ["@/assets/css/main.css"],
     modules: ["@pinia/nuxt"],
     app: {
-        baseURL: "/nuxt3-pwa",
+        baseURL: "/nuxt3-pwa/",
     },
     runtimeConfig: {
         public: {
-            baseURL: "/nuxt3-pwa",
+            baseURL: "/nuxt3-pwa/",
         },
     },
 });
