@@ -8,7 +8,7 @@
         "generate": "nuxt generate",
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
-        "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+        "deploy": "push-dir --dir=./.output/public --branch=gh-pages --cleanup"
     },
     "dependencies": {
         "nuxt": "^3.13.0",
