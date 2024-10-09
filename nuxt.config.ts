@@ -7,9 +7,9 @@ export default defineNuxtConfig({
     app: {
         baseURL: "/nuxt3-pwa/",
     },
-    runtimeConfig: {
-        public: {
-            baseURL: "/nuxt3-pwa/",
-        },
-    },
+    // runtimeConfig: {
+    //     public: {
+    //         baseURL: "/",
+    //     },
+    // },
 });
